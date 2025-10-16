@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Random jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 400px;
+      margin: 50px auto;
+      font-family: sans-serif;
+    }
+    .label-box {
+      width: 100px;
+      height: 50px;
+      background-color: #f0f0f0;
+      text-align: center;
+      line-height: 50px;
+      border: 1px solid #ccc;
+      font-size: 20px;
+    }
+    #generateBtn {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="label-box" id="rightLabel">0</div>
+    <button id="generateBtn">Random</button>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      $('#generateBtn').click(function() {
+        var randomNumber = Math.floor(Math.random() * 100); 
+        $('#rightLabel').text(randomNumber);
+      });
+    });
+  </script>
+
+</body>
+</html>

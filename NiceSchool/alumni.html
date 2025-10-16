@@ -4,30 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>บุคคลที่ชื่นชอบ</title>
+  <title>Alumni - NiceSchool Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-
+  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-
+  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-
+  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
- 
+  <!-- =======================================================
+  * Template Name: NiceSchool
+  * Template URL: https://bootstrapmade.com/nice-school-bootstrap-education-template/
+  * Updated: May 10 2025 with Bootstrap v5.3.6
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body class="alumni-page">
@@ -36,25 +42,34 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-       
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
         <i class="bi bi-buildings"></i>
-        <h1 class="sitename">บุคคลที่ชื่นชอบ</h1>
+        <h1 class="sitename">NiceSchool</h1>
       </a>
 
-       <nav id="navmenu" class="navmenu">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">หน้าแรก</a></li>
-          <li class="dropdown"><a href="about.html"><span>เกี่ยวกับ</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown"><a href="about.html"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="about.html">ประวัติการทำงาน</a></li>
-              <li><a href="admissions.html">วิชาที่ชื่นชอบ</a></li>
-              <li><a href="faculty-staff.html">รายชื่ออาจารย์ประจำสาขา</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="admissions.html">Admissions</a></li>
+              <li><a href="faculty-staff.html">Faculty &amp; Staff</a></li>
             </ul>
           </li>
 
-          <li><a href="students-life.html">มายLife</a></li>
-          <li><a href="news.html">หนังที่ชื่นชอบ</a></li>
-          <li><a href="alumni.html">ไอดอล</a></li>
+          <li><a href="students-life.html">Students Life</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="alumni.html" class="active">Alumni</a></li>
+      
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>        
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+            </ul>
+          </li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -66,10 +81,16 @@
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/History/dee.jpg);">
+    <div class="page-title dark-background" style="background-image: url(assets/img/education/showcase-1.webp);">
       <div class="container position-relative">
-        <h1>ไอดอล</h1>
-        <p>ด้วยคนเหล่านี้ผู้สรรค์สร้างความสุขแก่ตัวผม</p>
+        <h1>Alumni</h1>
+        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Alumni</li>
+          </ol>
+        </nav>
       </div>
     </div><!-- End Page Title -->
 
@@ -80,11 +101,32 @@
 
         <div class="alumni-hero">
           <div class="row align-items-center">
-           
+            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+              <div class="hero-content">
+                <span class="alumni-badge">Alumni Community</span>
+                <h2>Join Our Global Network of Changemakers</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus, velit vel fringilla venenatis, urna risus volutpat nisi, ac commodo dolor nulla quis lorem. In mattis dictum malesuada.</p>
+                <div class="alumni-metrics">
+                  <div class="metric">
+                    <div class="counter">35k+</div>
+                    <div class="label">Global Alumni</div>
+                  </div>
+                  <div class="metric">
+                    <div class="counter">142</div>
+                    <div class="label">Countries</div>
+                  </div>
+                  <div class="metric">
+                    <div class="counter">76</div>
+                    <div class="label">Years of Legacy</div>
+                  </div>
+                </div>
+                <a href="#" class="btn btn-discover">Discover Network Benefits</a>
+              </div>
+            </div>
             <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="300">
               <div class="hero-image-wrapper">
                 <div class="hero-image">
-                  <img src="assets/img/History/Best-Spider-Man-Memes-1.webp" alt="Alumni Network" class="img-fluid">
+                  <img src="assets/img/education/campus-5.webp" alt="Alumni Network" class="img-fluid">
                 </div>
               </div>
             </div>
@@ -93,7 +135,8 @@
 
         <div class="notable-alumni">
           <div class="section-header text-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>คัดเหล่าครีเอเตอร์<br>ที่มีคอนเทนต์น่าสนใจ</h3>
+            <h3>Notable Alumni Spotlights</h3>
+            <p>Extraordinary graduates making an impact in their fields</p>
           </div>
 
           <div class="row">
@@ -101,19 +144,19 @@
               <div class="alumni-profile">
                 <div class="profile-header">
                   <div class="profile-img">
-                    <img src="assets/img/funny/ประวัติ-9arm-1.jpg" alt="Alumni" class="img-fluid">
+                    <img src="assets/img/person/person-f-3.webp" alt="Alumni" class="img-fluid">
                   </div>
-                  <div class="profile-year">youtuber</div>
+                  <div class="profile-year">2009</div>
                 </div>
                 <div class="profile-body">
-                  <h4>นายอาร์ม</h4>
-                  <span class="profile-title">ธนา​นนท์ ปฏิญญาศักดิ​กุล</span>
-                  <p>ชื่อเล่น อาร์ม เป็นยูทูบเบอร์และวิศวกรซอฟต์แวร์ชาวไทย เขาเป็นหนึ่งในทีมผู้พัฒนาซูเปอร์คอมพิวเตอร์ Frontier ซึ่งเป็นซุปเปอร์คอมพิวเตอร์ที่มีประสิทธิภาพสูงสุดของโลก</p>
-                  <a href="https://www.youtube.com/@9arm." class="btn-view-profile">ไปที่ช่องของเขา <i class="bi bi-arrow-right"></i></a>
+                  <h4>Emma Richardson</h4>
+                  <span class="profile-title">Climate Science Researcher</span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis velit a enim tincidunt, sed tincidunt nulla feugiat. Cras efficitur magna in metus lacinia.</p>
+                  <a href="#" class="btn-view-profile">View Profile <i class="bi bi-arrow-right"></i></a>
                 </div>
                 <div class="achievement-badge">
                   <i class="bi bi-award"></i>
-                  <span>9arm</span>
+                  <span>Environmental Leadership Award</span>
                 </div>
               </div>
             </div>
@@ -122,22 +165,19 @@
               <div class="alumni-profile">
                 <div class="profile-header">
                   <div class="profile-img">
-                    <img src="assets/img/funny/หลอน.jpg" alt="Alumni" class="img-fluid">
+                    <img src="assets/img/person/person-m-7.webp" alt="Alumni" class="img-fluid">
                   </div>
-                  <div class="profile-year">youtuber</div>
+                  <div class="profile-year">2013</div>
                 </div>
                 <div class="profile-body">
-                  <h4>หลอนไดอารี่</h4>
-                  <span class="profile-title">ผู้ติดตาม 6.61 ล้าน คน
-</span>
-                  <p>อนิเมชั่น “สยองขวัญ” ที่สร้างมาจากเรื่องจริง, เรื่องเล่า, นิทาน และตำนาน 
-หลอนไดอารี่ : ทุกวัน เสาร์ เวลา 18.00น.
-นนท์เดอะซีรีส์ : ทุกวัน พุธ เวลา 18.00น.</p>
-                  <a href="https://www.youtube.com/@lorndiary/videos" class="btn-view-profile">ไปที่ช่องของเขา <i class="bi bi-arrow-right"></i></a>
+                  <h4>Dr. Marcus Johnson</h4>
+                  <span class="profile-title">Neurosurgeon &amp; Medical Innovator</span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis velit a enim tincidunt, sed tincidunt nulla feugiat. Cras efficitur magna in metus.</p>
+                  <a href="#" class="btn-view-profile">View Profile <i class="bi bi-arrow-right"></i></a>
                 </div>
                 <div class="achievement-badge">
                   <i class="bi bi-stars"></i>
-                  <span>สยองไดอารี่</span>
+                  <span>Medical Innovation Excellence</span>
                 </div>
               </div>
             </div>
@@ -146,68 +186,172 @@
               <div class="alumni-profile">
                 <div class="profile-header">
                   <div class="profile-img">
-                    <img src="assets/img/funny/เลิกลั่ก.jpg" alt="Alumni" class="img-fluid">
+                    <img src="assets/img/person/person-f-9.webp" alt="Alumni" class="img-fluid">
                   </div>
-                  <div class="profile-year">Tiktoker</div>
+                  <div class="profile-year">2015</div>
                 </div>
                 <div class="profile-body">
-                  <h4>เลิ่กลั่ก</h4>
-                  <span class="profile-title">มด-นิศารัตน์ อินทสุทธิ์ และ แมท-สิทธิโชค อินทสุทธิ์</span>
-                  <p>“เลิ่กลั่ก” ไม่ใช่แค่อินฟลูเอนเซอร์ที่ทำคอนเทนต์แค่ในช่อง แต่ยังมีบริษัทของตัวเองในชื่อ บริษัท เลิ่กลั่ก จำกัด ให้บริการ รับผลิตคอนเทนต์ สื่อโฆษณา และสื่อออนไลน์ครบวงจร รวมถึงอีกหนึ่งธุรกิจคือ บริษัทรับทำบัญชี ภาษี และจดทะเบียนธุรกิจ ในจังหวัดสุราษฎร์ธานี ที่เปิดมานานกว่า 4 ปีแล้ว</p>
-                  <a href="https://www.tiktok.com/@tigercryy" class="btn-view-profile">ไปที่ช่องของเขา <i class="bi bi-arrow-right"></i></a>
+                  <h4>Sophia Lin</h4>
+                  <span class="profile-title">Tech Entrepreneur &amp; VC Partner</span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis velit a enim tincidunt, sed tincidunt nulla feugiat. Cras efficitur magna in metus.</p>
+                  <a href="#" class="btn-view-profile">View Profile <i class="bi bi-arrow-right"></i></a>
                 </div>
                 <div class="achievement-badge">
                   <i class="bi bi-lightning"></i>
-                  <span>POPULAR CREATOR OF THE YEAR จาก TikTok Awards Thailand 2023 </span>
+                  <span>Tech Visionary of the Year</span>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="alumni-profile">
-                <div class="profile-header">
-                  <div class="profile-img">
-                    <img src="assets/img/funny/unnamed.jpg" alt="Alumni" class="img-fluid">
+          <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
+            <a href="#" class="btn-explore">Explore More Alumni Stories</a>
+          </div>
+        </div>
+
+        <div class="alumni-engagement">
+          <div class="section-header text-center" data-aos="fade-up" data-aos-delay="200">
+            <h3>How to Stay Connected</h3>
+            <p>Ways to engage with the community and make a difference</p>
+          </div>
+
+          <div class="engagement-cards">
+            <div class="row">
+              <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="engagement-card">
+                  <div class="card-icon">
+                    <i class="bi bi-people-fill"></i>
                   </div>
-                  <div class="profile-year">youtuber</div>
-                </div>
-                <div class="profile-body">
-                  <h4>Nontakan Ns.</h4>
-                  <span class="profile-title">จงมีความสุขในการว๊ากกันนะพวกเรา</span>
-                  <p> ----- LIVE STREAM ----- เล่นเกม
-                    พบกันทุกวันสตรีมสดเวลา (19.00-00.00 น.) นะจ๊ะ </p>
-                  <a href="https://www.youtube.com/channel/UCadvHR_ymmdouo3Sgb7Uf_w" class="btn-view-profile">ไปที่ช่องของเขา <i class="bi bi-arrow-right"></i></a>
-                </div>
-                <div class="achievement-badge">
-                  <i class="bi bi-award"></i>
-                  <span>ขอนอนบ้าง เดี๋ยวข้างบ้านสงสัย</span>
+                  <h4>Mentorship Program</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada.</p>
+                  <a href="#" class="card-link">Become a Mentor</a>
                 </div>
               </div>
-            </div>
 
-              <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="alumni-profile">
-                <div class="profile-header">
-                  <div class="profile-img">
-                    <img src="assets/img/funny/pOf49CvcyDHLMPHPTC4i.webp" alt="Alumni" class="img-fluid">
+              <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="engagement-card">
+                  <div class="card-icon">
+                    <i class="bi bi-calendar-event"></i>
                   </div>
-                  <div class="profile-year">youtuber</div>
+                  <h4>Alumni Events</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada.</p>
+                  <a href="#" class="card-link">Upcoming Events</a>
                 </div>
-                <div class="profile-body">
-                  <h4>พี่แจ็ค</h4>
-                  <span class="profile-title">วัชรพล ฝึกใจดี</span>
-                  <p>เป็นผู้ดำเนินรายการออนไลน์เกี่ยวกับการเล่าเรื่องผี นักจัดรายการวิทยุ พิธีกร และนักแสดงปัจจุบันดำเนินรายการทางช่อง เดอะโกสเรดิโอ</p>
-                  <a href="https://www.youtube.com/watch?v=Y53l0fIGKJY">ไปที่ช่องของเขา <i class="bi bi-arrow-right"></i></a>
+              </div>
+
+              <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="engagement-card">
+                  <div class="card-icon">
+                    <i class="bi bi-gift"></i>
+                  </div>
+                  <h4>Give Back</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada.</p>
+                  <a href="#" class="card-link">Support Our Mission</a>
                 </div>
-                <div class="achievement-badge">
-                  <i class="bi bi-award"></i>
-                  <span>The Ghost Radio (Official) คลื่นสยองของคนรุ่นใหม่
-โดย พี่แจ็ค วัชรพล ฝึกใจดี และทีมงาน</span>
+              </div>
+
+              <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="engagement-card">
+                  <div class="card-icon">
+                    <i class="bi bi-briefcase"></i>
+                  </div>
+                  <h4>Career Network</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada.</p>
+                  <a href="#" class="card-link">Join Network</a>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
+        <div class="upcoming-events">
+          <div class="section-header text-center" data-aos="fade-up" data-aos-delay="200">
+            <h3>Upcoming Alumni Events</h3>
+            <p>Connect with fellow graduates at these exclusive gatherings</p>
+          </div>
 
+          <div class="events-wrapper" data-aos="fade-up" data-aos-delay="300">
+            <div class="event">
+              <div class="date-badge">
+                <span class="month">JUN</span>
+                <span class="day">18</span>
+              </div>
+              <div class="event-info">
+                <h4>Global Alumni Leadership Summit</h4>
+                <div class="event-meta">
+                  <span><i class="bi bi-pin-map"></i> Grand Hall, Main Campus</span>
+                  <span><i class="bi bi-clock"></i> 10:00 AM - 4:00 PM</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo.</p>
+              </div>
+              <div class="event-action">
+                <a href="#" class="btn-register">Register</a>
+              </div>
+            </div>
+
+            <div class="event">
+              <div class="date-badge">
+                <span class="month">JUL</span>
+                <span class="day">25</span>
+              </div>
+              <div class="event-info">
+                <h4>Networking Mixer &amp; Career Fair</h4>
+                <div class="event-meta">
+                  <span><i class="bi bi-pin-map"></i> Metropolitan Hotel Conference Center</span>
+                  <span><i class="bi bi-clock"></i> 6:30 PM - 9:00 PM</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo.</p>
+              </div>
+              <div class="event-action">
+                <a href="#" class="btn-register">Register</a>
+              </div>
+            </div>
+
+            <div class="event">
+              <div class="date-badge">
+                <span class="month">SEP</span>
+                <span class="day">09</span>
+              </div>
+              <div class="event-info">
+                <h4>Homecoming Weekend 2023</h4>
+                <div class="event-meta">
+                  <span><i class="bi bi-pin-map"></i> University Campus</span>
+                  <span><i class="bi bi-clock"></i> All Weekend</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius tortor nibh, sit amet tempor nibh finibus et. Aenean eu enim justo.</p>
+              </div>
+              <div class="event-action">
+                <a href="#" class="btn-register">Register</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4" data-aos="fade-up" data-aos-delay="400">
+            <a href="#" class="calendar-link">View Full Events Calendar <i class="bi bi-arrow-right-circle"></i></a>
+          </div>
+        </div>
+
+        <div class="impact-banner" data-aos="fade-up" data-aos-delay="200">
+          <div class="row align-items-center">
+            <div class="col-lg-7">
+              <div class="impact-content">
+                <h3>Make a Lasting Impact</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus, velit vel fringilla venenatis, urna risus volutpat nisi, ac commodo dolor nulla quis lorem. In mattis dictum malesuada. Vestibulum non mi eu justo rutrum tempus.</p>
+                <div class="impact-buttons">
+                  <a href="#" class="btn-donate">Donate Now</a>
+                  <a href="#" class="btn-learn-more">Learn About Impact <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="impact-image">
+                <img src="assets/img/education/education-8.webp" alt="Student scholarship recipients" class="img-fluid">
+                <div class="impact-stat">
+                  <span class="stat-number">$2.4M</span>
+                  <span class="stat-text">in scholarships funded by alumni last year</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -223,24 +367,66 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">MyWebsite</span>
+            <span class="sitename">NiceSchool</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>221 saunplu6</p>
-            <p>Bankok, sathon 10120</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>0947164416</span></p>
-            <p><strong>Email:</strong> <span>golfgolf5877@gmail.com</span></p>
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            
-            <a href="https://www.facebook.com/kritsagolf.tms/"><i class="bi bi-facebook"></i></a>
+  <a href="https://www.facebook.com/kritsagolf.tms/"><i class="bi bi-facebook"></i></a>
             <a href="https://www.instagram.com/golfkritna/?fbclid=IwY2xjawLvwoVleHRuA2FlbQIxMABicmlkETBvTFNMMVM0NEdOQWxHZEI5AR5tbx9y8UmmmCtespZLpgD8jKPWMpXCsB7Mpv83ucA1efwcd5CrSyKXGgH8jQ_aem_L3jJJNgXKvong2W3uhlLcA#"><i class="bi bi-instagram"></i></a>
-            
           </div>
         </div>
+
+         <div class="col-lg-2 col-md-3 footer-links">
+          <h4>ข้อมูลหลัก</h4>
+          <ul>
+            <li><a href="#">หน้าแรก</a></li>
+            <li><a href="#">เกี่ยวกับผม</a></li>
+            <li><a href="#">ร่วมงานกับเรา</a></li>
+            <li><a href="#">บริการต่างๆ</a></li>
+            <li><a href="#">นโยบายของเรา</a></li>
+          </ul>
         </div>
-       </div>
-       
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>บริการของผม</h4>
+          <ul>
+            <li><a href="https://www.best-inc.co.th/">ส่งของด่วน</a></li>
+            <li><a href="https://www.traveloka.com/th-th?id=11009963891068728390&adloc=th-th&kw=11009963891068728390_traveloka&gmt=e&gn=g&gd=c&gdm=&gcid=705988623301&gdp=&gdt=&gap=&pc=1&cp=11009963891068728390_TH_TV_SM_AU_AL_Google+-+X+-+Search-TH/th+-+B+-+X+-+X_X+|+QueryType:Brand+Pure,MT:Exact_11009963891068728390_Traveloka+|+MT:Exact&aid=164780581173&wid=kwd-51659214310&fid=&gid=9198081&utm_id=T366ZRM4&ad_id=705988623301&target_id=kwd-51659214310&click_id=Cj0KCQjws4fEBhD-ARIsACC3d28dwKOlTbh6qqGj_aYnDJ419zMn9td3LQ0vXvdY3zWqRNLOBm3h5WIaAsJeEALw_wcB&group_id=164780581173&gad_source=1&gad_campaignid=21469925661&gbraid=0AAAAADi60UlPBJBkyKbiemcT3zYKrM0vb&gclid=Cj0KCQjws4fEBhD-ARIsACC3d28dwKOlTbh6qqGj_aYnDJ419zMn9td3LQ0vXvdY3zWqRNLOBm3h5WIaAsJeEALw_wcB">พาเที่ยวทั่วประเทศ</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.interpreter.translate.translator.lite&hl=th&pli=1">เเปลภาษา</a></li>
+            <li><a href="https://www.baanlaesuan.com/?gad_source=1&gad_campaignid=22088358149&gbraid=0AAAAAoxzt8q4zNFBGQesVqrpBDeiGCbTM&gclid=Cj0KCQjws4fEBhD-ARIsACC3d29xyZ9OAQpar8F6KKC4KwTPHQQUo3Fzn5EKH2b9qh-pPVPIITm8ep0aAtYWEALw_wcB">บริการงานบ้านเเละสวน</a></li>
+            <li><a href="https://www.dbd.go.th/hotService/online_service">ทำเว็ป</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>บริการเสริม</h4>
+          <ul>
+            <li><a href="https://mytheras.com/?gad_source=1&gad_campaignid=1657290121&gbraid=0AAAAADKgoJABCCR5gu2lbAaT2n2tvG-Bm&gclid=Cj0KCQjws4fEBhD-ARIsACC3d2_jc18L0MH-Bnye5R3jrj4DT7aELXEAjbRxw2-2RM6qak2StAF4iZEaAno3EALw_wcB">นวดรายชั่วโมง</a></li>
+            <li><a href="https://www.facebook.com/people/%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%B7%E0%B8%9A%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C-V2/100067771564557/">สืบสอดเเนม</a></li>
+            <li><a href="https://www.exta.co.th/">เภสัชกรีฑา</a></li>
+            <li><a href="https://www.opsmoac.go.th/kamphaengphet-manual-files-421591791811">ทำไร่ไถนา</a></li>
+            <li><a href="https://www.myhora.com/">ดูดวง</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>รายชื่อผู้ร่วมทีม</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100087770163839">อินเดียปลอม♘</a></li>
+            <li><a href="https://www.facebook.com/search/top?q=keng%20keng">ธีรพงษ์ตัวตึงบรรทัดทอง♛</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100091812291595">ป้ารัตนา✌</a></li>
+            <li><a href="https://www.facebook.com/sarocha.sudjai.9">MyGirl❤</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100019295254327">บัว☻</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
 
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
